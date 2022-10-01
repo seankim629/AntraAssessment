@@ -7,7 +7,7 @@ const Api = (() => {
       const response = await fetch('https://randomuser.me/api').then((api) =>
         api.json()
       );
-      console.log(response);
+    //   console.log(response);
       final.push(response);
     }
     // const res = Promise.all([
